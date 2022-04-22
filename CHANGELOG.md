@@ -5,6 +5,26 @@
 
 * Use release-please in favor of semantic-release ([#221](https://github.com/Zapper-fi/studio/issues/221)) ([aa25404](https://github.com/Zapper-fi/studio/commit/aa25404564f7438fef5d88ef45e1834d5fd50aa0))
 
+## [0.3.0](https://github.com/Zapper-fi/studio/compare/v0.2.5...v0.3.0) (2022-04-22)
+
+
+### Features
+
+* add tokemak tvl fetcher ([#215](https://github.com/Zapper-fi/studio/issues/215)) ([3f4da77](https://github.com/Zapper-fi/studio/commit/3f4da77e44155c8e7af432329a2cf7097f099c00))
+* Extract Olympus to Studio ([#228](https://github.com/Zapper-fi/studio/issues/228)) ([2b9b887](https://github.com/Zapper-fi/studio/commit/2b9b887a872a4572058847cba42f9aa06074719c))
+* Extract uniswap-v2 to Studio ([#218](https://github.com/Zapper-fi/studio/issues/218)) ([8c2bbec](https://github.com/Zapper-fi/studio/commit/8c2bbec5decfff0f9ac20fabf73b0992dbeb5186))
+* Migrate Curve over ([#229](https://github.com/Zapper-fi/studio/issues/229)) ([1043bc8](https://github.com/Zapper-fi/studio/commit/1043bc8780bf999d53e7b7aab2a55c2e0d08ff39))
+
+
+### Bug Fixes
+
+* Catch @Cache & @CacheOnInterval errors ([#234](https://github.com/Zapper-fi/studio/issues/234)) ([ec71d80](https://github.com/Zapper-fi/studio/commit/ec71d80d5f09310c0af3dacf7cc87ba893124a8c))
+* **curve:** Replace helper references for app toolkit ([#240](https://github.com/Zapper-fi/studio/issues/240)) ([c7a6064](https://github.com/Zapper-fi/studio/commit/c7a60642fd10802ebb2cf861cf475a25002e24cb))
+* Fix Olympus module not loading ([#230](https://github.com/Zapper-fi/studio/issues/230)) ([ba2d565](https://github.com/Zapper-fi/studio/commit/ba2d56575d3a0fad5ff25f14966f087306dca824))
+* Resolve circular dependencies in Olympus ([#232](https://github.com/Zapper-fi/studio/issues/232)) ([ee54d2a](https://github.com/Zapper-fi/studio/commit/ee54d2a4d95e1281ab7742734629d5a5b8d6c47f))
+* Temporarily disable Olympus ([#231](https://github.com/Zapper-fi/studio/issues/231)) ([2ec6cfb](https://github.com/Zapper-fi/studio/commit/2ec6cfba7c71e50a90d894a5fbde563aadd3e99c))
+* **tokemak:** Use App Toolkit instead of position service ([#239](https://github.com/Zapper-fi/studio/issues/239)) ([2d4e54a](https://github.com/Zapper-fi/studio/commit/2d4e54a639cb4ea4ff9a02be8e705f38850d6ae1))
+
 ## [0.2.4](https://github.com/Zapper-fi/studio/compare/0.2.3...0.2.4) (2022-04-22)
 
 ### Bug Fixes
